@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "Hello"
+version = "0.1.0"
+description = ""
+authors = ["PaniMari <me.panina@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+colorama = "^0.4.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+say-hey = "hey_script:main"
+say-dar = "darling_script:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
