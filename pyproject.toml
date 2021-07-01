@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Hello"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["PaniMari <me.panina@gmail.com>"]
 
@@ -12,8 +12,8 @@ colorama = "^0.4.4"
 pytest = "^5.2"
 
 [tool.poetry.scripts]
-say-hey = "hey_script:main"
-say-dar = "darling_script:main"
+say-hey = "hello.scripts.hey_script:main"
+say-dar = "hello.scripts.darling_script:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
